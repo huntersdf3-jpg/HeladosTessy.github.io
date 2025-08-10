@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helados Tessy: Sabores Exóticos de la Selva</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#hero" class="logo">
+                <img src="img/logo.png" alt="Logo Helados Tessy">
+                <span>Helados Tessy</span>
+            </a>
+            
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            
+            <ul class="nav-links">
+                <li><a href="#sabores">Sabores</a></li>
+                <li><a href="#ubicaciones">Ubicaciones</a></li>
+                <li><a href="#sobre-nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>El Sabor Auténtico de la Selva, con la Calidad de Tessy</h1>
+                <p>Prueba nuestros helados artesanales, elaborados con frutas exóticas del Amazonas y la tradición de Helados Tessy.</p>
+                <a href="#sabores" class="btn btn-primary">Ver Sabores</a>
+            </div>
+        </section>
+
+        <section id="carrusel" class="carousel-section container">
+            <div class="carousel-container">
+                <div class="carousel-slide fade">
+                    <img src="img/heladosFrutasFrescas.jpg" alt="Helados de frutas frescas">
+                    <div class="carousel-caption">¡Frescura y Sabor en Cada Bola!</div>
+                </div>
+                <div class="carousel-slide fade">
+                    <img src="img/helados_cremosos.jpg" alt="Helados cremosos y exóticos">
+                    <div class="carousel-caption">Textura Inigualable y Cremosa</div>
+                </div>
+                <div class="carousel-slide fade">
+                    <img src="img/variedadSabores.jpg" alt="Variedad de sabores de la selva">
+                    <div class="carousel-caption">Descubre Sabores que Te Sorprenderán</div>
+                </div>
+                 <div class="carousel-slide fade">
+                    <img src="img/helado_lucma.jpg" alt="Helado de Lúcuma">
+                    <div class="carousel-caption">El sabor único de la Lúcuma</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sabores" class="flavors-section container">
+            <h2 class="section-title">Nuestros Exquisitos Sabores</h2>
+            <div class="flavor-grid">
+                
+                <article class="flavor-card">
+                    <img src="img/helado_acai.png" alt="Helado de Açaí" class="flavor-img">
+                    <h3>Açaí</h3>
+                    <p>Un sabor dulce y profundo, el toque energético de la selva, ahora en un helado Tessy.</p>
+                    <span class="price">S/ 12.00</span>
+                    <button class="btn btn-secondary">Comprar</button>
+                </article>
+
+                <article class="flavor-card">
+                    <img src="img/helado_camu_camu.png" alt="Helado de Camu Camu" class="flavor-img">
+                    <h3>Camu Camu</h3>
+                    <p>La explosión cítrica y refrescante de la selva, con la calidad que solo Helados Tessy te ofrece.</p>
+                    <span class="price">S/ 10.00</span>
+                    <button class="btn btn-secondary">Comprar</button>
+                </article>
+
+                <article class="flavor-card">
+                    <img src="img/helado_aguaje.png" alt="Helado de Aguaje" class="flavor-img">
+                    <h3>Aguaje</h3>
+                    <p>La cremosidad única de la selva, un sabor que te transporta, creado por Helados Tessy.</p>
+                    <span class="price">S/ 11.00</span>
+                    <button class="btn btn-secondary">Comprar</button>
+                </article>
+
+                <article class="flavor-card">
+                    <img src="img/helado_lucma.png" alt="Helado de Lúcuma" class="flavor-img">
+                    <h3>Lúcuma</h3>
+                    <p>El sabor tradicional peruano, reinventado con un toque exótico y la calidad de Helados Tessy.</p>
+                    <span class="price">S/ 10.00</span>
+                    <button class="btn btn-secondary">Comprar</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="ubicaciones" class="locations-section">
+            <h2 class="section-title">Nuestras Ubicaciones en la Selva</h2>
+            <div class="location-grid container">
+                <article class="location-card" id="location-iquitos">
+                    <h3>Iquitos</h3>
+                    <p>Encuéntranos en la capital de la Amazonía Peruana.</p>
+                    <a href="#" class="btn btn-primary">Ver en el mapa</a>
+                </article>
+                <article class="location-card" id="location-tarapoto">
+                    <h3>Tarapoto</h3>
+                    <p>Disfruta nuestros helados en la ciudad de las palmeras.</p>
+                    <a href="#" class="btn btn-primary">Ver en el mapa</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="sobre-nosotros" class="about-section">
+            <div class="about-content container">
+                <h2 class="section-title">Nuestra Pasión por el Sabor</h2>
+                <p>En Helados Tessy, ubicados en Puente Piedra, Lima Province, Perú, nos dedicamos a crear helados artesanales únicos. Fusionamos la riqueza de las frutas de la selva con la tradición y calidad que siempre nos ha caracterizado. Nuestro compromiso es brindarte una experiencia deliciosa y refrescante, utilizando ingredientes naturales y apoyando la biodiversidad de nuestra Amazonía.</p>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">¡Contáctanos!</h2>
+                <p>¿Tienes preguntas o quieres hacer un pedido especial? Estamos aquí para servirte.</p>
+                <form action="#" method="POST" class="contact-form">
+                    <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                    <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+                    <textarea name="mensaje" placeholder="Tu Mensaje..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Helados Tessy. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
